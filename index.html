@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b4da2">
+  <title>AJA Motos | Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar" id="navbar">
+  <a class="brand" href="#inicio"><img src="logoaja.png" alt="AJA Motos"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu"><span></span><span></span></button>
+  <nav id="navLinks">
+    <a href="#inicio">Início</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#sobre">Sobre nós</a>
+    <a class="nav-cta" href="#contato">Fale conosco ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-copy reveal">
+      <span class="eyebrow">● A SUA PRÓXIMA CONQUISTA COMEÇA AQUI</span>
+      <h1>Encontre a moto<br>que <span>combina com você.</span></h1>
+      <p>Liberdade, estilo e confiança em duas rodas. Explore nosso catálogo e encontre sua próxima moto.</p>
+      <a class="button" href="#catalogo">Explorar catálogo ↓</a>
+      <div class="proof">✓ Atendimento próximo<br><small>Transparência em cada etapa</small></div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="hero-image-wrap"><img src="ajamotos.png" alt="Moto Honda Bros"></div>
+      <div class="floating-card">AJA MOTOS<strong>Seu próximo destino começa sobre duas rodas.</strong></div>
+    </div>
+  </section>
+
+  <section class="intro-strip">
+    <span>AJA MOTOS / NOSSA ESSÊNCIA</span>
+    <p>Mais do que encontrar uma moto. <strong>É encontrar seu próximo caminho.</strong></p>
+  </section>
+
+  <section class="catalog section-pad" id="catalogo">
+    <div class="section-heading reveal">
+      <div><span class="eyebrow">● ESCOLHA SUA PRÓXIMA AVENTURA</span><h2>Nosso <span>catálogo.</span></h2></div>
+      <p>Confira as motos da garagem.<br>Clique em uma moto para ver os detalhes.</p>
+    </div>
+
+    <div class="toolbar">
+      <span id="catalogCount">16 MOTOS NO CATÁLOGO</span>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="todas">Todas</button>
+        <button class="filter-btn" data-filter="street">Street</button>
+        <button class="filter-btn" data-filter="trail">Trail</button>
+      </div>
+    </div>
+
+    <div class="moto-grid" id="motoGrid">
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="0"><img src="biz_125_011.png" alt="Honda Biz 125"></button>
+        <span class="category">STREET · 01/16</span><h3>Honda Biz 125 <small>2011</small></h3>
+        <p>Compacta e prática para deslocamentos urbanos.</p><button class="details" data-open="0">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="1"><img src="biz_125_2011.png" alt="Honda Biz 125"></button>
+        <span class="category">STREET · 02/16</span><h3>Honda Biz 125 <small>2011</small></h3>
+        <p>Praticidade e versatilidade para a rotina.</p><button class="details" data-open="1">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="2"><img src="Biz100_2015.png" alt="Honda Biz 100"></button>
+        <span class="category">STREET · 03/16</span><h3>Honda Biz 100 <small>2015</small></h3>
+        <p>Uma motocicleta compacta para a cidade.</p><button class="details" data-open="2">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="trail">
+        <button class="moto-photo" data-open="3"><img src="broos160_2015.png" alt="Honda Bros 160"></button>
+        <span class="category">TRAIL · 04/16</span><h3>Honda Bros 160 <small>2015*</small></h3>
+        <p>Estilo trail e versatilidade para diferentes trajetos.</p><button class="details" data-open="3">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="trail">
+        <button class="moto-photo" data-open="4"><img src="bros_150_2012.png" alt="Honda Bros 150"></button>
+        <span class="category">TRAIL · 05/16</span><h3>Honda Bros 150 <small>2012</small></h3>
+        <p>Versátil para a rotina e trajetos variados.</p><button class="details" data-open="4">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="trail">
+        <button class="moto-photo" data-open="5"><img src="bros_2008_150.png" alt="Honda Bros 150"></button>
+        <span class="category">TRAIL · 06/16</span><h3>Honda Bros 150 <small>2008</small></h3>
+        <p>Modelo trail. Consulte os detalhes deste exemplar.</p><button class="details" data-open="5">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="trail">
+        <button class="moto-photo" data-open="6"><img src="bros2011_150.png" alt="Honda Bros 150"></button>
+        <span class="category">TRAIL · 07/16</span><h3>Honda Bros 150 <small>2011</small></h3>
+        <p>Uma opção versátil para diferentes trajetos.</p><button class="details" data-open="6">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="7"><img src="CG_150_09_10.png" alt="Honda CG 150"></button>
+        <span class="category">STREET · 08/16</span><h3>Honda CG 150 <small>2009/2010</small></h3>
+        <p>Motocicleta urbana para acompanhar sua rotina.</p><button class="details" data-open="7">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="8"><img src="CG_150_2007.png" alt="Honda CG 150"></button>
+        <span class="category">STREET · 09/16</span><h3>Honda CG 150 <small>2007</small></h3>
+        <p>Uma opção urbana para quem procura mobilidade.</p><button class="details" data-open="8">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="9"><img src="fan_150_11_12.png" alt="Honda Fan 150"></button>
+        <span class="category">STREET · 10/16</span><h3>Honda Fan 150 <small>2011/2012</small></h3>
+        <p>Proposta prática para os deslocamentos diários.</p><button class="details" data-open="9">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="10"><img src="fan125_16_17.png" alt="Honda Fan 125"></button>
+        <span class="category">STREET · 11/16</span><h3>Honda Fan 125 <small>2016/2017</small></h3>
+        <p>Uma opção compacta para uso urbano.</p><button class="details" data-open="10">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="11"><img src="fazer_2005_250.png" alt="Yamaha Fazer 250"></button>
+        <span class="category">STREET · 12/16</span><h3>Yamaha Fazer 250 <small>2005*</small></h3>
+        <p>Modelo de estilo urbano. Consulte os dados do exemplar.</p><button class="details" data-open="11">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="12"><img src="start_2016.PNG" alt="Honda CG Start"></button>
+        <span class="category">STREET · 13/16</span><h3>Honda CG Start <small>2016</small></h3>
+        <p>Uma moto de proposta urbana para o dia a dia.</p><button class="details" data-open="12">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="trail">
+        <button class="moto-photo" data-open="13"><img src="XLR_125_2001.png" alt="Honda XLR 125"></button>
+        <span class="category">TRAIL · 14/16</span><h3>Honda XLR 125 <small>2001</small></h3>
+        <p>Modelo trail. Consulte a disponibilidade na garagem.</p><button class="details" data-open="13">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="14"><img src="YBR_125_10_11.png" alt="Yamaha YBR 125"></button>
+        <span class="category">STREET · 15/16</span><h3>Yamaha YBR 125 <small>2010/2011</small></h3>
+        <p>Motocicleta urbana para seus deslocamentos.</p><button class="details" data-open="14">Ver detalhes ↗</button>
+      </article>
+      <article class="moto-card" data-category="street">
+        <button class="moto-photo" data-open="15"><img src="YBR_125_14_15.png" alt="Yamaha YBR 125"></button>
+        <span class="category">STREET · 16/16</span><h3>Yamaha YBR 125 <small>2014/2015</small></h3>
+        <p>Consulte as condições deste exemplar com a equipe.</p><button class="details" data-open="15">Ver detalhes ↗</button>
+      </article>
+    </div>
+    <p class="note">*Confirme o ano correto e as informações de cada motocicleta com a AJA Motos.</p>
+  </section>
+
+  <section class="about section-pad" id="sobre">
+    <div><span class="eyebrow">● CONHEÇA A AJA</span><h2>Uma boa escolha começa com <span>confiança.</span></h2></div>
+    <p>Nosso objetivo é tornar sua busca por uma moto simples e transparente. Consulte a equipe para confirmar estoque, ano, estado e condições de cada exemplar.</p>
+  </section>
+
+  <section class="contact" id="contato">
+    <span class="eyebrow">VAMOS CONVERSAR?</span>
+    <h2>Sua próxima moto<br>pode estar <span>aqui.</span></h2>
+    <p>Fale com nossa equipe e tire suas dúvidas.</p>
+    <a class="button button-white" id="whatsappCta" href="#">Conversar pelo WhatsApp ↗</a>
+  </section>
+</main>
+
+
+<footer>
+    <a class="footer-brand" href="#inicio">AJA MOTOS</a>
+
+    <span>© <span id="currentYear"></span> AJA Motos</span>
+
+    <div class="footer-social">
+        <a href="https://wa.me/5534999999999"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Fale conosco pelo WhatsApp"
+           title="WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.6 0 .28 5.32.28 11.85c0 2.09.55 4.13 1.6 5.93L.18 24l6.37-1.67a11.84 11.84 0 0 0 5.58 1.42h.01c6.53 0 11.85-5.32 11.85-11.85a11.8 11.8 0 0 0-3.47-8.42ZM12.14 21.7a9.86 9.86 0 0 1-5.02-1.37l-.36-.21-3.78.99 1.01-3.68-.23-.38a9.82 9.82 0 1 1 8.38 4.65Zm5.39-7.36c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.63-.93-2.23-.25-.58-.5-.5-.68-.51h-.58c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.2 5.08 4.48.71.31 1.26.5 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.08-.12-.27-.2-.57-.35Z"/>
+            </svg>
+        </a>
+
+        <a href="https://www.instagram.com/SEU_INSTAGRAM/"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Acompanhe a AJA Motos no Instagram"
+           title="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+            </svg>
+        </a>
+
+    </div>
+
+    
+<a class="footer-address"
+   href="https://www.google.com/maps/search/?api=1&query=Avenida+19,+985,+Campina+Verde,+MG"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Ver endereço da AJA Motos no Google Maps"
+   title="Como chegar">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"/>
+        <circle cx="12" cy="10" r="2.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"/>
+    </svg>
+    <span>Avenida 19, nº 985 — Campina Verde, MG</span>
+</a>
+
+
+    <a class="footer-top" href="#inicio">Voltar ao topo ↑</a>
+</footer>
+
+
+<div class="story-modal" id="storyModal" aria-hidden="true">
+  <button class="modal-close" id="modalClose" aria-label="Fechar">×</button>
+  <button class="story-arrow" id="storyPrev" aria-label="Anterior">‹</button>
+  <div class="story-card">
+    <div class="progress"><span id="storyProgress"></span></div>
+    <div class="story-photo"><img id="storyImage" src="" alt=""></div>
+    <div class="story-info">
+      <span id="storyCategory" class="eyebrow"></span>
+      <h2 id="storyName"></h2>
+      <span id="storyYear"></span>
+      <p id="storyDescription"></p>
+      <a id="storyContact" class="button" href="#" target="_blank" rel="noopener">Tenho interesse nesta moto ↗</a>
+      <p class="story-count" id="storyCounter"></p>
+    </div>
+  </div>
+  <button class="story-arrow" id="storyNext" aria-label="Próxima">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
